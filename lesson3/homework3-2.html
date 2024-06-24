@@ -10,25 +10,32 @@
         height: 800px;
         background-color: #4b683b;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,121,9,1) 43%, rgba(0,212,255,1) 74%);
     }
     .smallbox{
-        width: 200px;
+        width: 190px;
         height: 190px;
-        margin: 5px 20px;
+        margin: 5px 10px;
         line-height: 30px;
         background-color: #cdf6c5;
         border-radius: 5%;
         font-size: 15px;
         padding: 20px 20px;
         transition: 0.5s;
+        box-shadow: 15px -17px 28px -1px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 15px -17px 28px -1px rgba(0,0,0,0.75);
+        -moz-box-shadow: 15px -17px 28px -1px rgba(0,0,0,0.75);
+        text-shadow: 3px -3px 3px rgba(0,0,0,0.5);
     }
     .smallbox:hover{
         width: 210px;
         height: 200px;
         transition: 0.5s;
+
     }
 </style>
 <body>
