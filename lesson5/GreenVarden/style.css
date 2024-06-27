@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------------Header--------------------*/
+
+header{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    height: 10vh;
+    background-color: rgba(112, 82, 82, 0.18);
+    color: #705252;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header p{
+    font-size: 17px;
+}
+header nav{
+    width: 60%;
+}
+header nav ol{
+    width: 100%;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ol a{
+    text-decoration: none;
+    color: #835757;
+    transition: 0.4s;
+}
+header nav ol a:hover{
+    color: #2b3923;
+    transition: 0.7s;
+}
+/*---------------------Section--------------------*/
+section{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 90vh;
+    background-image: url(img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #2c1f1f;
+    text-shadow: 15px 1px 9px rgb(248, 245, 245);
+    font-size: 30px;
+    padding-left: 50%;
+}
+section h1{
+    font-size: 90px;
+    letter-spacing: 20px;
+}
+section button{
+    width: 150px;
+    height: 30px;
+    background-color: #514343;
+    color: white;
+    border: none;
+    transition: 1s ;
+}
+section button:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+}
+.all{
+    height: 90vh;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #2c1f1f;
+    text-shadow: 15px 1px 9px rgb(248, 245, 245);
+    background-image: url("img_1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+}
+.cont{
+    margin: 50px 50px;
+    font-size: 60px;
+    color: #2c1f1f;
+    text-shadow: 15px 1px 9px rgb(248, 245, 245);
+
+}
+.address{
+    margin: 50px 20px;
+    font-size: 60px;
+    color: #2c1f1f;
+    text-shadow: 15px 1px 9px rgb(248, 245, 245);
+
+}
+.namber{
+    height: 35vh;
+    width: 20vw;
+    margin: 40px 40px;
+    color: #432b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.namber ol{
+    list-style-type: none;
+}
