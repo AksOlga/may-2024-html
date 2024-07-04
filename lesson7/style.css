@@ -35,7 +35,7 @@
 
 section div h2 {
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: KoHo;
+    font-family: 'KoHo', sans-serif;
     font-size: 45px;
     font-style: normal;
     font-weight: 400;
@@ -43,7 +43,7 @@ section div h2 {
 }
 
 section div p {
-    font-family: KoHo;
+    font-family: 'KoHo', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -57,7 +57,7 @@ section div button {
     border: 1px solid rgba(156, 152, 152, 0.10);
     background: rgba(217, 217, 217, 0.60);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    font-family: KoHo;
+    font-family: 'KoHo', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -93,14 +93,14 @@ iframe {
     width: 949px;
     height: 183px;
     margin: 110px 282px 86px 281px;
-    font-family: KoHo;
+    font-family: 'KoHo', sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .text p{
-    font-family: KoHo;
+    font-family: 'KoHo', sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -135,7 +135,7 @@ iframe {
 
 }
 .lower-section div p{
-    /*font-family: KoHo;*/
+    font-family: 'KoHo', sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -144,7 +144,7 @@ iframe {
 }
 
 .lower-section div h2{
-    /*font-family: KoHo;*/
+    font-family: 'KoHo', sans-serif;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
