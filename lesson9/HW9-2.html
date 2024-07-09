@@ -1,68 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Регистрация в Instagram</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body{
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            height: 100vh;
         }
-        .flex{
-            margin: 50px;
-
-            width: 40%;
-            border: 1px solid #000000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+        .container {
+            width: 450px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            text-align: center;
 
         }
+        .container>h1>img{
+            height: 120px;
 
 
-
-
-        input[type="email"],
-        input[type="password"] {
-            margin: 0 0 15px 100px;
-            height: 5vh;
-            width: 30vw;
-            flex-wrap: wrap;
         }
-        .register {
-            width: 40%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid #000000;
+        .input-field{
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #dbdbdb;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #0095f6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #007ac1;
+        }
+
+        .footer{
+            margin-top: 10px;
+            width: 450px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+        }
+        p>a{
+            font-size: 19px;
+            text-decoration: none;
+            color: #061477;
         }
     </style>
 </head>
 <body>
-<div class="flex">
-    <p><img src="logo-6060992_1280.png" alt="picture" width="500" ></p>
+<div class="container">
+    <h1><img src="logo-6060992_1280.png"></h1>
     <form>
-        <input type="email" name="email" placeholder="Номер телефону,імʼя користувача або email">
-        <input type="password" name="password" placeholder="Пароль" >
-        <br>
-        <input type="submit" value="Увійти">
-    </form>
-    <p>АБО</p>
-    <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuElEQVR4nO3WQQrCMBAF0JwwB/IKoefwBKEFcefGpUJFChVEsKCCWdiWJmm+6K7FgqJppM2HWT/4mYEQMtrQCUcfQ17BLBRWh3r426qDSGC+KZAJDakNagOU0kDktb2qg0ggPSl0xRo8i4tO1Cp8vOoGpLTB7qywzeRzrMGVMg14urz1c07tPN7cCczCocF8lePd/PSO+Qfw/qLcwOtD5QZeJOUAlot5uBVfNfPL9VfnRF186MlYcgeV84gbfLdBEQAAAABJRU5ErkJggg==" alt="picture">
-        <a href="#"Увійти через Facebook></a></p>
+        <input type="text" class="input-field" placeholder="Номер телефону,імʼя користувача або email" required>
+        <input type="password" class="input-field" placeholder="Пароль" required>
+        <button type="submit" class="btn">Увійти</button>
+        <p>АБО</p>
+        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuElEQVR4nO3WQQrCMBAF0JwwB/IKoefwBKEFcefGpUJFChVEsKCCWdiWJmm+6K7FgqJppM2HWT/4mYEQMtrQCUcfQ17BLBRWh3r426qDSGC+KZAJDakNagOU0kDktb2qg0ggPSl0xRo8i4tO1Cp8vOoGpLTB7qywzeRzrMGVMg14urz1c07tPN7cCczCocF8lePd/PSO+Qfw/qLcwOtD5QZeJOUAlot5uBVfNfPL9VfnRF186MlYcgeV84gbfLdBEQAAAABJRU5ErkJggg==" alt="picture">
+            <a href="#">Увійти через Facebook</a></p>
         <p><a href="#">Забули пароль?</a></p>
+
+    </form>
 </div>
 
-<div class="register">
-    <p>Не маєте обліковогозапису?<a href="#">Зареєструйтеся</a></p></div>
+<div class="footer">
+    <p>Не маєте обліковогозапису? <a href="#">Зареєструйтеся</a></p>
+</div>
 
 </body>
 </html>
