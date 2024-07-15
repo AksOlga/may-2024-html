@@ -79,7 +79,7 @@ div{
 main>div>p:nth-child(1){
     width: 533px;
     color: #1E1E1E;
-    font-family: "Bowlby One", serif;
+    font-family: "Bowlby One";
     font-size: 70px;
     font-style: normal;
     font-weight: 400;
@@ -92,7 +92,7 @@ main>div>p:nth-child(2){
     height: 75px;
     flex-shrink: 0;
     color: #1E1E1E;
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
