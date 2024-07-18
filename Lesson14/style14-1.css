@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 1440px;
+    height: 2069px;
+    background: #F7F6F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px 466px 110px 165px;
+    gap: 40px;
+    list-style-type: none;
+    color: #333;
+    font-family: Taviraj, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+header ul li{
+    position: relative;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0;
+
+}
+.navi{
+    height: 107px;
+    width: 160px;
+    display: none;
+    position: absolute;
+    /*display: inline-flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0.70);
+
+}
+
+header>ul>li:hover .navi{
+    display: block;
+}
+.navi li{
+    width: 99px;
+    height: 23px;
+    color: #333;
+    font-family: Taviraj , serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+header img{
+    width: 178px;
+    height: 22px;
+    flex-shrink: 0;
+    margin: 42px 146px 110px 165px;
+}
+/*--------------------------body-------------*/
+
+.box-one{
+    width: 1110px;
+    height: 505px;
+    flex-shrink: 0;
+    background: #F1DDC9;
+    margin:0 165px auto 165px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+
+}
+.box-one h2{
+    margin: 56px 317px 32px 56px;
+    color: #333;
+    font-family: Taviraj, serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+
+}
+.box-one p{
+    margin: 0 201px 79px 56px;
+    width: 529px;
+    color: #333;
+    font-family: Nunito, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.box-one button{
+    margin: 0 522px 50px 56px;
+    width: 208px;
+    height: 62px;
+    flex-shrink: 0;
+    background: #D84727;
+    color: #FFF;
+    font-family: Taviraj, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+body h3{
+    margin: 89px 1016px 60px 165px;
+    color: #333;
+    font-family: Taviraj, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.box-two{
+    width: 1110px;
+    height: 505px;
+    flex-shrink: 0;
+    margin:0 165px 0 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-end;
+    width: 255px;
+    height: 278px;
+    flex-shrink: 0;
+    background: #FFF;
+    position: sticky;
+
+
+}
+.card div {
+    width: 226px;
+    height: 226px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -50px;
+
+}
+.card p{
+    margin: 213px 80px 32px 24px;
+
+    color: #333;
+    font-family: Taviraj, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+.box-three{
+    width: 1110px;
+    height: 505px;
+    flex-shrink: 0;
+    margin:0 165px auto 165px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.box-three p:first-child{
+    color: #777;
+    font-family: Taviraj, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.box-three p:nth-child(2){
+    width: 350px;
+    color: #333;
+    font-family: Taviraj, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+.box-three img{
+    margin: 0 244px 151px 20px;
+}
+
+
+
