@@ -128,8 +128,8 @@ header img{
     line-height: normal;
     letter-spacing: 0.4px;
 }
-body h3{
-    margin: 89px 1016px 60px 165px;
+ h3{
+    margin: 79px 1016px 79px 165px;
     color: #333;
     font-family: Taviraj, serif;
     font-size: 36px;
@@ -137,45 +137,40 @@ body h3{
     font-weight: 500;
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
+    /*margin-bottom: 89px;*/
 }
 .box-two{
     width: 1110px;
     height: 505px;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
     margin:0 165px 0 165px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
-
-
-
+    /*gap: 30px;*/
 
 }
-.card {
+.card{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
-    align-items: self-end;
+    align-items: center;
     width: 255px;
     height: 278px;
-    flex-shrink: 0;
     background: #FFF;
-    position: sticky;
-
+    position: relative;
 
 }
-.card div {
-    width: 226px;
-    height: 226px;
-    flex-shrink: 0;
+.card img{
     position: absolute;
-    top: -50px;
+    top: -40px;
+
 
 }
 .card p{
-    margin: 213px 80px 32px 24px;
-
+    text-align: left;
+    width: 221px;
+    padding: 0 0 33px 24px;
     color: #333;
     font-family: Taviraj, serif;
     font-size: 24px;
