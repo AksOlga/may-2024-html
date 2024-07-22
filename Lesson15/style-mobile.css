@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px){
+    body{
+        display: flex;
+        /*justify-content: flex-start;*/
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    .wrapper{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    .text h2{
+        font-size: 32px;
+
+    }
+    .text nav{
+        font-size: 18px;
+    }
+    iframe{
+        width: 343px;
+        height: 193px;
+    }
+
+
+}
