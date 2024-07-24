@@ -1,0 +1,37 @@
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .grid {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-areas:
+            'header header'
+            'light-gray dark-gray'
+            ' dark-gray light-gray'
+            'dark-gray dark-gray'
+            'footer footer';
+    }
+    header, footer{
+        width: 428px;
+        height: 185.2px;
+        flex-shrink: 0;
+    }
+
+    section, aside {
+        width: 214px;
+        height: 185.2px;
+
+    }
+
+}
+
+
+
+
+
+

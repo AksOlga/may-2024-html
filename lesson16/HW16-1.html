@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+    }
+    .grid{
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+      grid-template-areas:
+      'header header'
+      'content-one spam-one'
+      'content-one spam-one'
+      'content-two spam-one'
+      'content-two spam-two'
+      'content-thee spam-two'
+      'content-thee spam-two'
+      'footer footer';
+    }
+
+
+    header{
+      grid-area: header;
+      background: #8D8484;
+    }
+    .content-one{
+      grid-area: content-one;
+      background: #776969;
+    }
+    .content-two{
+      grid-area: content-two;
+      background: #643030;
+    }
+    .content-thee{
+      grid-area: content-thee;
+      background: #441818;
+    }
+    .spam-one{
+      grid-area: spam-one;
+      background: #937575;
+    }
+    .spam-two{
+      grid-area: spam-two;
+      background: #644C4C;
+    }
+    footer{
+      grid-area: footer;
+      background: #BDBDBD;
+    }
+     section, aside{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       color: #FFF;
+       font-family: Inter, serif;
+       font-size: 45px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: normal;
+    }
+    header, footer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000;
+      font-family: Inter, serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+
+    }
+
+  </style>
+</head>
+<body>
+<div class="grid">
+  <header>Header</header>
+  <section class="content-one">Content - 1</section>
+  <section class="content-two">Content - 2</section>
+  <section class="content-thee">Content - 3</section>
+  <aside class="spam-one">spam -1</aside>
+  <aside class="spam-two">spam -2</aside>
+  <footer>footer</footer>
+
+</div>
+
+</body>
+</html>
